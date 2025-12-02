@@ -21,6 +21,7 @@
   "result": {
     "id": "shulker_spawn_egg",
     "components": {
+      "minecraft:item_model": "minecraft:beacon",
       "minecraft:custom_name": {
         "text": "Advanced Beacon",
         "color": "aqua",
