@@ -18,3 +18,6 @@ Adds a new beacon to your world! It functions along the same lines, with a block
         - **This doesn't wipe any beacons that have been set, however.**
 - **Large Range** - Beacons now start a 15 block range and go up by 15 blocks per layer
 - **Large Beacon** - Some of the best effects are behind the elusive 11x11 pyramid base! That's 285 blocks, or roughly 4 and a half stacks total!
+- **No ceiling** - Currently, there is no ceiling to the beacon - it can be placed anywhere!
+- **Particle Effects** - There is a long beam of crying obsidian that comes from the beacon
+    - The particle effects can be disabled by setting the score `config.effects.disable_particles advancedbeacon.master` to 1

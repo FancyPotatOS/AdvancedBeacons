@@ -9,3 +9,5 @@ execute if score effect_clock advancedbeacon.master matches 200.. as @e[type=mar
 
 execute as @e[type=marker,tag=advancedbeacon.beacon] if data entity @s data.beacon{active:true} at @s if predicate advancedbeacon:random_active_sound run playsound minecraft:block.beacon.ambient block @a[distance=..8] ~ ~ ~ 1 1
 execute as @e[type=marker,tag=advancedbeacon.beacon] if data entity @s data.beacon{active:false} at @s if predicate advancedbeacon:random_inactive_sound run playsound minecraft:block.beacon.ambient block @a[distance=..8] ~ ~ ~ 0.5 0.3333
+
+execute if score config.effects.disable_particles advancedbeacon.master matches 0 as @e[type=marker,tag=advancedbeacon.beacon] if data entity @s data.beacon{active:true} at @s run particle minecraft:falling_obsidian_tear ~ ~180 ~ 0.05 64 0.05 0 100 force
