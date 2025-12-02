@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "advancedbeacon.placed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "advancedbeacon:placement/advancement"
+  }
+}

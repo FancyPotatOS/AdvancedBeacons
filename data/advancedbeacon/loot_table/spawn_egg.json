@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:beacon",
+                "minecraft:custom_name": {
+                  "text": "Advanced Beacon",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "NoGravity": true,
+                  "Invulnerable": true,
+                  "PortalCooldown": 1000,
+                  "CustomNameVisible": false,
+                  "Silent": true,
+                  "Tags": [
+                    "advancedbeacon.spawn_egg"
+                  ],
+                  "data": {
+                    "advancedbeacon": {
+                      "type": "spawn_egg"
+                    }
+                  },
+                  "Health": 50,
+                  "Invisible": true,
+                  "Marker": true,
+                  "NoBasePlate": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

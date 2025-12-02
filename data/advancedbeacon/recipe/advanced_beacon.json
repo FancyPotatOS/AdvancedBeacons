@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beacon",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GNG",
+    "CCC"
+  ],
+  "key": {
+    "G": [
+      "minecraft:glass"
+    ],
+    "C": [
+      "minecraft:crying_obsidian"
+    ],
+    "N": [
+      "minecraft:nether_star"
+    ]
+  },
+  "result": {
+    "id": "shulker_spawn_egg",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Advanced Beacon",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "NoGravity": true,
+        "Invulnerable": true,
+        "PortalCooldown": 1000,
+        "CustomNameVisible": false,
+        "Silent": true,
+        "Tags": [
+          "advancedbeacon.spawn_egg"
+        ],
+        "data": {
+          "advancedbeacon": {
+            "type": "spawn_egg"
+          }
+        },
+        "Health": 50,
+        "Invisible": true,
+        "Marker": true,
+        "NoBasePlate": true
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}
