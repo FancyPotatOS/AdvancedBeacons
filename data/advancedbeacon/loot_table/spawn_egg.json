@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "minecraft:beacon",
+                "minecraft:item_model": "advancedbeacon:advanced_beacon",
                 "minecraft:custom_name": {
                   "text": "Advanced Beacon",
                   "color": "aqua",
