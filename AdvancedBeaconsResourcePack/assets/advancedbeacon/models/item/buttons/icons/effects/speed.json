@@ -1,0 +1,7 @@
+{
+	"parent":"advancedbeacon:item/buttons/icons/base",
+	"textures": {
+		"3": "advancedbeacon:item/button/icons/effects/speed",
+		"particle": "advancedbeacon:item/button/icons/effects/speed"
+	}
+}

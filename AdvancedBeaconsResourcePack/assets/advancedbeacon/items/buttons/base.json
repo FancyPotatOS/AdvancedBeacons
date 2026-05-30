@@ -1,0 +1,358 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "advancedbeacon:item/buttons/base"
+        },
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "pressed",
+            "model": {
+              "type": "minecraft:model",
+              "model": "advancedbeacon:item/buttons/pressed"
+            }
+          },
+          {
+            "when": "depressed",
+            "model": {
+              "type": "minecraft:model",
+              "model": "advancedbeacon:item/buttons/depressed"
+            }
+          },
+          {
+            "when": "disabled",
+            "model": {
+              "type": "minecraft:model",
+              "model": "advancedbeacon:item/buttons/disabled"
+            }
+          }
+        ]
+      },
+      {
+        "type": "minecraft:select",
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "advancedbeacon:item/buttons/icons/base"
+        },
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          {
+            "when": "confirm",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/confirm"
+              }
+          },
+          {
+            "when": "cancel",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/cancel"
+              }
+          },
+          {
+            "when": "disabled",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/disabled"
+              }
+          },
+          {
+            "when": "none",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/none"
+              }
+          },
+          {
+            "when": "absorption",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/absorption"
+              }
+          },
+          {
+            "when": "bad_omen",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/bad_omen"
+              }
+          },
+          {
+            "when": "blindness",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/blindness"
+              }
+          },
+          {
+            "when": "conduit_power",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/conduit_power"
+              }
+          },
+          {
+            "when": "darkness",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/darkness"
+              }
+          },
+          {
+            "when": "dolphins_grace",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/dolphins_grace"
+              }
+          },
+          {
+            "when": "fire_resistance",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/fire_resistance"
+              }
+          },
+          {
+            "when": "glowing",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/glowing"
+              }
+          },
+          {
+            "when": "glowstone_dust",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/glowstone_dust"
+              }
+          },
+          {
+            "when": "haste",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/haste"
+              }
+          },
+          {
+            "when": "health_boost",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/health_boost"
+              }
+          },
+          {
+            "when": "hero_of_the_village",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/hero_of_the_village"
+              }
+          },
+          {
+            "when": "hunger",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/hunger"
+              }
+          },
+          {
+            "when": "infested",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/infested"
+              }
+          },
+          {
+            "when": "instant_damage",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/instant_damage"
+              }
+          },
+          {
+            "when": "instant_health",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/instant_health"
+              }
+          },
+          {
+            "when": "invisibility",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/invisibility"
+              }
+          },
+          {
+            "when": "jump_boost",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/jump_boost"
+              }
+          },
+          {
+            "when": "levitation",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/levitation"
+              }
+          },
+          {
+            "when": "luck",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/luck"
+              }
+          },
+          {
+            "when": "mining_fatigue",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/mining_fatigue"
+              }
+          },
+          {
+            "when": "nausea",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/nausea"
+              }
+          },
+          {
+            "when": "night_vision",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/night_vision"
+              }
+          },
+          {
+            "when": "oozing",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/oozing"
+              }
+          },
+          {
+            "when": "poison",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/poison"
+              }
+          },
+          {
+            "when": "raid_omen",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/raid_omen"
+              }
+          },
+          {
+            "when": "regeneration",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/regeneration"
+              }
+          },
+          {
+            "when": "resistance",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/resistance"
+              }
+          },
+          {
+            "when": "saturation",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/saturation"
+              }
+          },
+          {
+            "when": "slowness",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/slowness"
+              }
+          },
+          {
+            "when": "slow_falling",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/slow_falling"
+              }
+          },
+          {
+            "when": "speed",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/speed"
+              }
+          },
+          {
+            "when": "strength",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/strength"
+              }
+          },
+          {
+            "when": "trial_omen",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/trial_omen"
+              }
+          },
+          {
+            "when": "unluck",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/unluck"
+              }
+          },
+          {
+            "when": "water_breathing",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/water_breathing"
+              }
+          },
+          {
+            "when": "weakness",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/weakness"
+              }
+          },
+          {
+            "when": "weaving",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/weaving"
+              }
+          },
+          {
+            "when": "wind_charged",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/wind_charged"
+              }
+          },
+          {
+            "when": "wither",
+            "model": {
+                "type": "minecraft:model",
+                "model": "advancedbeacon:item/buttons/icons/effects/wither"
+              }
+          }
+        ]
+      }
+    ]
+  }
+}

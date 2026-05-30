@@ -1,0 +1,6 @@
+{
+	"parent": "advancedbeacon:item/buttons/base",
+	"textures": {
+		"3": "advancedbeacon:item/button/depressed"
+	}
+}
